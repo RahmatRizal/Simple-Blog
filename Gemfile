@@ -33,6 +33,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#gem untuk membuat tampilan error lebih indah dilihat
+gem 'better_errors', '~> 2.5', '>= 2.5.1'
+
+#gem untuk CSS
+gem 'bulma-rails', '~> 0.7.4'
+
+#gem untuk simple form
+gem 'simple_form', '~> 4.1'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
